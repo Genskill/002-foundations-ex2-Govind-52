@@ -2,9 +2,9 @@
 #include <cs50.h>
 int main() 
 {
-  int choice = get_int("Enter type of pattern (1 or 2) "); 
+  int choice = get_int("Enter type of pattern (1 or 2) \n"); 
   
-  int n= get_int("Enter the number of rows ");  
+  int n= get_int("Enter the number of rows \n");  
   
 	switch(choice) 
 {
