@@ -3,6 +3,7 @@
 int main() 
 {
   int choice = get_int("Enter Choice[1/2]"); 
+  printf("\n");	
   int n= get_int("Enter the number of rows");  
   printf("\n");
 	switch(choice) 
