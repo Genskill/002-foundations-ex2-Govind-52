@@ -4,7 +4,7 @@ int main()
 {
   int choice = get_int("Enter type of pattern (1 or 2)"); 
   printf("\n");	
-  int n= get_int("Number of rows");  
+  int n= get_int("Enter the number of rows");  
   printf("\n");
 	switch(choice) 
 {
@@ -15,10 +15,8 @@ int main()
 		{
 			printf("#");
 		} 
-	       if(i==n)
-                break;
-		  else 
-		  printf("\n");	
+	              
+		 printf("\n");	
 	}
 	break; 
 	
@@ -34,10 +32,8 @@ int main()
 		printf("#"); 
 			
 		} 
-	       if(i==n)
-                break;
-		  else 
-		  printf("\n");		
+	                    
+		 printf("\n");		
         } 
 	break; 
     default : printf("Invalid Entry"); 	
