@@ -14,10 +14,10 @@ int main()
 		{
 			printf("#");
 		} 
-	       if(i!=n)
-          printf("\n");
+	       if(i==n)
+                break;
 		  else 
-		  break;	
+		  printf("\n");	
 	}
 	break; 
 	
@@ -33,11 +33,11 @@ int main()
 		printf("#"); 
 			
 		} 
-	       if(i!=n)
-          printf("\n");
+	       if(i==n)
+                break;
 		  else 
-		  break;		
-    } 
+		  printf("\n");		
+        } 
 	break; 
     default : printf("Invalid Entry"); 	
 
