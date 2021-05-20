@@ -2,7 +2,7 @@
 #include <cs50.h>
 int main() 
 {
-  int choice = get_int("Enter Choice[1/2]\n"); 
+  int choice = get_int("Enter Choice[1/2]"); 
 	
 	switch(choice) 
 {
