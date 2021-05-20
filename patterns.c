@@ -3,15 +3,11 @@
 int main() 
 {
   int choice = get_int("Enter Choice[1/2]"); 
-	
+  int n= get_int("Enter the number of rows"); 	
 	switch(choice) 
 {
 	case 1:  
-	
-	int n= get_int("Enter the number of rows"); 
-
-	
-	for(int i=1;i<=n;i++) 
+	   for(int i=1;i<=n;i++) 
 	{
 		for(int j=0;j<=n-i;j++) 
 		{
@@ -26,19 +22,17 @@ int main()
 	
 	case 2: 
 	  
-	int x= get_int("Enter the number of rows"); 
-	 
-	
-	for(int i=1;i<=x;i++) 
+		
+	for(int i=1;i<=n;i++) 
 	{
-		for(int j=0;j<=x;j++) 
-		{   if(j<=x-i) 
+		for(int j=0;j<=n;j++) 
+		{   if(j<=n-i) 
 		printf(" "); 
 		else 
 		printf("#"); 
 			
 		} 
-	       if(i!=x)
+	       if(i!=n)
           printf("\n");
 		  else 
 		  break;		
