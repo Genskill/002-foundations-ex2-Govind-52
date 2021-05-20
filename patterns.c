@@ -18,7 +18,7 @@ int main()
 	          if(n!=i)    
 		 printf("\n"); 
 		   else 
-	         break;		   
+	         continue;		   
 	}
 	break; 
 	
@@ -37,7 +37,7 @@ int main()
 	         if(n!=i)           
 		 printf("\n"); 
 		else 
-		break;
+		continue;
         } 
 	break; 
     default : printf("Invalid Entry"); 	
