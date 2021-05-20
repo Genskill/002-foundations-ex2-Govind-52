@@ -2,13 +2,13 @@
 #include <cs50.h>
 int main() 
 {
-  int choice = get_int("Enter Choice[1/2] \n"); 
+  int choice = get_int("Enter Choice[1/2]\n"); 
 	
 	switch(choice) 
 {
 	case 1:  
 	
-	int n= get_int("Enter the numner of rows\n"); 
+	int n= get_int("Enter the number of rows"); 
 
 	
 	for(int i=1;i<=n;i++) 
@@ -26,7 +26,7 @@ int main()
 	
 	case 2: 
 	  
-	int x= get_int("Enter the number of rows\n"); 
+	int x= get_int("Enter the number of rows"); 
 	 
 	
 	for(int i=1;i<=x;i++) 
